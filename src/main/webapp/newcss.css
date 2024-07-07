@@ -1,0 +1,25 @@
+/* Estilos para la página de inicio de sesión */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+form {
+    text-align: center;
+    width: 300px; /* Ajusta el tamaño del formulario según tus necesidades */
+}
+
+h1 {
+    text-align: center;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="submit"] {
+    width: 100%;
+    margin-bottom: 10px;
+}
